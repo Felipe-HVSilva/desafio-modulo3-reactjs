@@ -1,0 +1,54 @@
+  .content {
+  margin:  0 2rem;
+
+  h1 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    letter-spacing: -0.5px;
+    color: var(--heading);
+  }
+
+  p {
+    color: var(--body);
+    margin-top: 8px;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+  .info {
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    span {
+      color: var(--info);
+      display: flex;
+      align-items: center;
+
+      & + span {
+        margin-left: 24px;
+      }
+
+      svg {
+        margin-right: 6px;
+      }
+    }
+  }
+
+  button {
+    margin-top: 64px;
+    border: none;
+    background-color: inherit;
+    color: var(--highlight);
+    font-size: 1rem;
+    font-weight: 500;
+  }
+}
+.post {
+  display: block;
+
+  & + .post {
+    margin-top: 3rem;
+  }
+
+}
+
